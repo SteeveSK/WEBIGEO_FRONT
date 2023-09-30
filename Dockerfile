@@ -2,7 +2,7 @@
 FROM node:latest
 
 #Env variables
-ARG API_DNS=api.webigeo-pre.dcpepper.cloudns.ph
+ARG API_DNS=api.webigeo-pre.exam-datascientest-sk.cloudns.ph
 
 # Install Node.js and npm
 RUN apt update && apt install -y git nodejs npm
